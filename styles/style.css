@@ -118,6 +118,14 @@ body {
     font-weight: 400;
 }
 
+@media (max-width: 750px) {
+    
+
+    .cabecalho__menu__link--whatsapp {
+        padding-right: 200px;
+    }
+}
+
 @media (max-width: 1300px) {
     .cabecalho {
         padding: 10%;
@@ -127,8 +135,8 @@ body {
         justify-content: center;
     }
 
-    .cabecalho__menu__link {
-        margin-right: 200px;
+    .cabecalho__menu__link--whatsapp {
+        padding-right: 200px;
     }
 
     .apresentacao {

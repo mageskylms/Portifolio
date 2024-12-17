@@ -37,7 +37,6 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-    margin-right: 200px;
 }
 
 .apresentacao {
@@ -126,6 +125,10 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
+    }
+
+    .cabecalho__menu__link {
+        margin-right: 200px;
     }
 
     .apresentacao {
